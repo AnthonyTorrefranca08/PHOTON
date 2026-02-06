@@ -1,0 +1,9 @@
+.adjustmentWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid black;
+    height: 100vh;
+}

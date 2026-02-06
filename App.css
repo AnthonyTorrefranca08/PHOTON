@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px 0;
+}
+#userInterface{
+    display: flex;
+}
