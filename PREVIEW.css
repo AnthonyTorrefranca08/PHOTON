@@ -1,19 +1,9 @@
-#photoContainer section{
+.addPhotoContainer{
     display: flex;
-    align-items: center;
     justify-content: center;
-    justify-items: center;
-    width: 580px;
+    width: 500%;
 }
-#photoContainer section:nth-child(1){
-    height: 10vh;
-}
-#photoContainer section:nth-child(2){
-    height: 80vh;
-}
-#photoContainer section:nth-child(3){
-    height: 10vh;
-}
-#photoContainer section{
+.addphotoContainer{
     border: 1px solid black;
+    width: 500%;
 }

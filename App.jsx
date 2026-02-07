@@ -10,7 +10,7 @@ return (
   <section id='userInterface'>
     <Adjustment title="ADJUSTMENTS" />
     <PREVIEW title="TEST"/>
-    <PREVIEW title="TEST"/>
+    {/* <PREVIEW title="TEST"/> */}
     {/* <FILEINFO title="FILE INFORMATION" /> */}
   </section>
 )
