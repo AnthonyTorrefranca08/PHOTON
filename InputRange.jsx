@@ -1,8 +1,6 @@
 import './InputRange.css'
 
-export default function InputRange ({
-    title, value, onChange, min, max,
-}){
+export default function InputRange ({ title, value, onChange, min, max, }){
 
 return <>
     <section className="inputTitle">
