@@ -1,9 +1,22 @@
-.adjustmentWrapper{
+.addFileWrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
+    width: 500%;
     border: 1px solid black;
     height: 100vh;
+}
+.adjustmentWrapper h1{
+    display: flex;
+    justify-content: center;
+}
+.adjustmentWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.adjustmentWrapper input{
+    display: flex;
+    flex-direction: column;
 }

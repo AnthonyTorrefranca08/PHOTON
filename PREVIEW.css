@@ -1,9 +1,25 @@
-.addPhotoContainer{
+.addPhotoWrapper{
     display: flex;
     justify-content: center;
     width: 500%;
-}
-.addphotoContainer{
     border: 1px solid black;
+    height: 100vh;
     width: 500%;
+}
+.addFileTitle.active{
+    display: none;
+}
+.imgPreview{
+    height: 100vh;
+}
+.closeBtn{
+    /* height: 10px; */
+    display: none;
+    cursor: pointer;
+}
+.closeBtn.active{
+    height: 40px;
+    display: block;
+    position: absolute;
+    transform: translate(140px, 0px) rotate(45deg);
 }

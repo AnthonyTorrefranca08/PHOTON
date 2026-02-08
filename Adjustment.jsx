@@ -15,29 +15,29 @@ return (
             <InputRange title="Brightness"
             min={0} max={200}
             value={adj.brightness}
-                onChange={(e)=>{
-                    const brightness = e.target.value;
-                    setAdj((prev)=>({
-                        ...prev,
-                        brightness: brightness,
-                    }))
-                }}
+            onChange={e=>{
+                const brightness = e.target.value;
+                setAdj(prev=>({
+                    ...prev,
+                    brightness: brightness,
+                }))
+            }}
             />
             <InputRange title="Saturation"
             min={0} max={200}
             value={adj.saturation}
-                onChange={(e)=>{
-                    const saturation = e.target.value;
-                    setAdj((prev)=>({
-                        ...prev,
-                        saturation: saturation,
-                    }))
-                }}
+            onChange={e=>{
+                const saturation = e.target.value;
+                setAdj(prev=>({
+                    ...prev,
+                    saturation: saturation,
+                }))
+            }}
             />
             <InputRange title="Vibrance"
             min={0} max={200}
             value={adj.vibrance}
-            onChange={(e)=>{
+            onChange={e=>{
                 const vibrance = e.target.value;
                 setAdj(prev=>({
                     ...prev,
