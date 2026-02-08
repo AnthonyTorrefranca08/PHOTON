@@ -7,9 +7,10 @@ export default function PREVIEW() {
         addFile: null,
         preview: null,
     })
-    
-        const inputRef = useRef(null);
 
+    const inputRef = useRef(null);
+
+    
     const handleFileChange = (e) =>{
         const tray = e.target.files;
         const file = tray[0];
@@ -25,16 +26,17 @@ export default function PREVIEW() {
 
     const handleRemove = () =>{
         console.log("test");
-
-        if(inputRef.current){
-            inputRef.current.value = "";
-        }
-
         setAddFile(prev=>({
             ...prev,
             addFile: null,
             preview: null,
         }))
+
+            console.log(inputRef.current.value);
+
+        if(inputRef.current){
+            inputRef.current.value = null;            
+        }
     }
 
     const fileAdded = addFile.addFile;
